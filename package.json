@@ -1,0 +1,33 @@
+{
+  "name": "@mzmr/special",
+  "version": "0.0.1",
+  "description": "special variables",
+  "main": "dst/index.js",
+  "types": "dst/index.d.ts",
+  "files": [
+    "src/**/*",
+    "dst/**/*"
+  ],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json"
+  },
+  "author": "hclarke",
+  "license": "MIT",
+  "repository": {
+  	"type":"git",
+  	"url":"https://github.com/mzmr-dev/special.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.5.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  }
+}
